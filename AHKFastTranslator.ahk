@@ -162,15 +162,15 @@ Return
 ; if mode is send then copying the formula spanish how are you, will translate what you copy, pop up a tooltip and write it to clipboard in the selected language
 ~^c::
 	ClipWait, 1 ; for clipboard to populate
-    if (mode = "receive") {
-        url := TranslateURL("auto", "en", A_Clipboard)
+	if (mode = "receive") {
+		url := TranslateURL("auto", "en", A_Clipboard)
         response := PostRequest(url)
-        RegExMatch(response, """([^""]+)""", match) ; cleanup string
+    	RegExMatch(response, """([^""]+)""", match) ; cleanup string
         A_Clipboard := match1
         ToolTip % A_Clipboard
         Sleep, 3000
         ToolTip
-    } else if (mode = "send") {
+	} else if (mode = "send") {
 		; split string formula spanish how are you
         StringSplit, parts, A_Clipboard, %A_Space%
         firstPart := parts1
@@ -182,7 +182,7 @@ Return
 		ToolTip % A_Clipboard
         Sleep, 3000
         ToolTip
-    }
+	}
 Return
 
 PostRequest(url){
