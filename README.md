@@ -1,5 +1,5 @@
 ## About
-This is an AutoHotkey translation script based on [AHKFastTranslator](https://github.com/balawi28/AHKFastTranslator).
+This is an AutoHotkey translation script based on [AHKFastTranslator](https://github.com/balawi28/AHKFastTranslator) that uses google translate api.
 I simplifed the script and removed the gui, this script works off of ctrl + c, ctrl + v and alt + c.
 The script includes two modes: Receive and Send.
 Receive Mode: Translates selected text into English.
