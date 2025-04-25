@@ -1,5 +1,6 @@
 ## About
 This is an AutoHotkey translation script based on [AHKFastTranslator](https://github.com/balawi28/AHKFastTranslator) that uses google translate api.
+I mainly created this script so i can read and communicate with other non-english speaking people in game. Thats why it uses the clipboard and tooltips.
 I simplifed the script and removed the gui, this script works off of ctrl + c, ctrl + v and alt + c.
 The script includes two modes: Receive and Send.
 Receive Mode: Translates selected text into English.
@@ -176,9 +177,8 @@ Zulu
 1. Install AutoHotKey (https://www.autohotkey.com).
 1. Download the `AHKFastTranslator.ahk` file from this GitHub repository or the latest release.
 3. Double-click the `AHKFastTranslator.ahk` file to run the script.
-
-
-Or optionally if you don't want to install autohotkey i've included the compiled exe in the latest release
+Or optionally if you don't want to install autohotkey i've included the compiled exe in the latest release.
+Note: Remember to stop and close the script when you're not using it as it uses and overrides the clipboard.
 
 ## Requirements
 AutoHotkey (version 1.1.33.02 or later)
