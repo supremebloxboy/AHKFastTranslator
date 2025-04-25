@@ -161,7 +161,7 @@ Return
 ; if mode is receieve then copying something will translate what you copy, pop up a tooltip and write it to clipboard
 ; if mode is send then copying the formula spanish how are you, will translate what you copy, pop up a tooltip and write it to clipboard in the selected language
 ~^c::
-	ClipWait, 1 ; for clipboard to populate
+	Sleep, 100 ; for clipboard to populate
 	if (mode = "receive") {
 		url := TranslateURL("auto", "en", A_Clipboard)
         response := PostRequest(url)
