@@ -176,6 +176,7 @@ Zulu
 1. Install AutoHotKey (https://www.autohotkey.com).
 1. Download the `AHKFastTranslator.ahk` file from this GitHub repository.
 3. Double-click the `AHKFastTranslator.ahk` file to run the script.
+Or optionally if you don't want to install autohotkey i've included the compiled exe in the latest release
 
 ## Requirements
 AutoHotkey (version 1.1.33.02 or later)
