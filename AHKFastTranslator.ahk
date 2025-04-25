@@ -154,8 +154,8 @@ mode := "receive" ; receive, send
 ~!c::
 	mode := (mode = "send") ? "receive" : "send"
 	ToolTip Mode is now %mode%
-    Sleep, 1000
-    ToolTip
+	Sleep, 1000
+	ToolTip
 Return
 
 ; if mode is receieve then copying something will translate what you copy, pop up a tooltip and write it to clipboard
@@ -228,6 +228,8 @@ EncodeParams(params)
     Return encodedParams
 }
 
+; UriEncode function is written by the-Automator
+; https://www.the-automator.com/parse-url-parameters/
 UriEncode(Uri, RE="[0-9A-Za-z]")
 {
     VarSetCapacity(Var, StrPut(Uri, "UTF-8"), 0)
