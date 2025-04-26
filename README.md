@@ -1,32 +1,28 @@
 ## About
-This is an AutoHotkey translation script based on [AHKFastTranslator](https://github.com/balawi28/AHKFastTranslator) that uses google translate api.  
+This is an AutoHotkey translation script forked from [AHKFastTranslator](https://github.com/balawi28/AHKFastTranslator) that uses google translate api.  
 I mainly created this script so i can read and communicate with other non-english speaking people in game. Thats why it uses the clipboard and tooltips.  
 I simplifed the script and removed the gui, this script works off of ctrl + c, ctrl + v and alt + c.  
 The script includes two modes: Receive and Send.  
 Receive Mode: Translates selected text into English.  
 Send Mode: Translates English text into a specified language.  
 
-## Usage Instructions
-After running the script, Receive Mode is enabled by default. To toggle between Receive Mode and Send Mode, press Alt + C. A tooltip will appear indicating the current mode.
+## Usage Instructions  
+After running the script, Receive Mode is enabled by default. To toggle between Receive Mode and Send Mode, press Alt + C. A tooltip will appear indicating the current mode.  
+![notepad_xgfqzYfX8y](https://github.com/user-attachments/assets/8bb510dc-6888-4cca-bfb0-3a244e8f2283)  
 
 Receive Mode  
-Select any text and press Ctrl + C.  
-The script will:  
-Automatically translate the copied text to English.  
-Display the translation in a tooltip.  
-Replace the clipboard contents with the translated text.  
-Paste the translated result using Ctrl + V.  
+Select any text and press Ctrl + C, this will copy the text and activate the script.  
+The script will automatically translate the copied text to English, display the translation in a tooltip and replace the clipboard contents with the translated text.  
+You can then paste the translated result using Ctrl + V.  
+![notepad_2tn12LeBvx](https://github.com/user-attachments/assets/668a6a32-1eaa-444f-8881-bc886bf8f425)  
 
 Send Mode  
 Type the target language followed by the text to be translated.  
 Example: spanish how are you  
-Select the full input and press Ctrl + C.  
-The script will:  
-Detect the target language.  
-Translate the input text accordingly.  
-Show the translation in a tooltip.  
-Overwrite the clipboard with the translated text.  
-Paste the translated result using Ctrl + V.  
+Select the full input and press Ctrl + C, this will copy the text and activate the script.  
+The script will automatically detect the target language, translate the input text accordingly, show the translation in a tooltip and overwrite the clipboard with the translated text.  
+You can then paste the translated result using Ctrl + V.  
+![notepad_QMnPHfLpQi](https://github.com/user-attachments/assets/b3f6cfd7-3bf8-4d2c-92f0-e426436baafd)  
 
 ## Supported Languages
 When in send mode, type one of these languanges to translate into that language.  
